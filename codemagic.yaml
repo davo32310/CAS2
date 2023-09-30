@@ -4,12 +4,7 @@ workflows:
         max_build_duration: 120
         instance_type: mac_mini_m1
         artifacts:
-        - build/ios/ipa/*.ipa
-        - /tmp/xcodebuild_logs/*.log
-        - flutter_drive.log
-        - ios.yaml
-        - swift.yaml
-        - objective-c-xcode.yaml
+        - **
 publishing:
   email: 
      recipients:
