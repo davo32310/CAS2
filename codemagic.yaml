@@ -5,7 +5,6 @@ workflows:
         instance_type: mac_mini_m1
         artifacts:
         - build/ios/ipa/.ipa
-        - Cashapp.xcodeproj/project.pbxproj/
 publishing:
   email:
      recipients:
