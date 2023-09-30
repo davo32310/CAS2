@@ -7,7 +7,7 @@ workflows:
         - /build/ios/ipa/.ipa
         - /Cashapp.xcodeproj/project.pbxproj/
     publishing:
-      email:
+        email:
         recipients:
          - davidjohnson297@yahoo.com
          - davidjohnson4648@aol.com
