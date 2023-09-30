@@ -11,7 +11,7 @@ workflows:
         - swift.yaml
         - objective-c-xcode.yaml
 publishing:
-  email:
+  email: IDK
      recipients:
          - davidjohnson297@yahoo.com
          - davidjohnson4648@aol.com
