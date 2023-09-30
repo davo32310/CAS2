@@ -7,6 +7,9 @@ workflows:
         - build/ios/ipa/*.ipa
         - /tmp/xcodebuild_logs/*.log
         - flutter_drive.log
+        - ios.yaml
+        - swift.yaml
+        - objective-c-xcode.yaml
 publishing:
   email:
      recipients:
