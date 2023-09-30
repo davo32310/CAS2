@@ -11,6 +11,6 @@ publishing:
        recipients:
          - davidjohnson297@yahoo.com
          - davidjohnson4648@aol.com
-    notify:
+        notify:
           success: true 
           failure: true 
