@@ -8,9 +8,9 @@ workflows:
         - /Cashapp.xcodeproj/project.pbxproj/
 publishing:
   email:
-       recipients:
+     recipients:
          - davidjohnson297@yahoo.com
          - davidjohnson4648@aol.com
-        notify:
+     notify:
           success: true 
           failure: true 
