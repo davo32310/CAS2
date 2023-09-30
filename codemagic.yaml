@@ -7,7 +7,8 @@ workflows:
         cocoapods: default
         artifacts:
       - /build/ios/ipa/.ipa
-      - /Cashapp.xcodeproj/project.pbxproj/                                                                                                                                             publishing:
+      - /Cashapp.xcodeproj/project.pbxproj/
+      publishing:
   email:
     recipients:
       - davidjohnson297@yahoo.com
